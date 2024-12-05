@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tabela">
+    <meta name="author" content="Sara Granja"
+    <title>Criação de tabela</title>
+    <style>
+        body {
+            font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+            
+        }
+
+        table {
+            width: 350px;
+            height: 100px;
+            border border="1" cellspacing="10px" cellpadding="5px"
+            
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+                
+        }
+
+        th {
+            border: 1px solid black;
+            padding:10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>Preço dos quartos do hotel</h2> <hr />
+    <table>        
+        <tr> <!-- Primeira linha -->
+            <th style="background-color: #819ff7;" colspan="3">Preços por tipo de quarto</th>            
+        </tr>
+        <tr> <!-- Segunda linha -->
+            <td style="background-color: #81f7d8;" align="content;">Nome do quarto</td>
+            <td style="background-color: #81f7d8;">Capacidade</td>
+            <td style="background-color: #81f7d8;">Preço</td>
+        </tr>
+        <tr> <!-- Terceira linha -->
+            <td style="background-color: #D8D8D8;">Lisboa</td>
+            <td>1 pax</td>
+            <td>30,00€</td>
+        </tr>
+        <tr> <!-- Quarta linha -->
+            <td style="background-color: #D8D8D8;">Porto</td>
+            <td>2 pax</td>
+            <td>40,00€</td>
+        </tr>
+        <tr> <!-- Quinta linha -->
+            <td style="background-color: #D8D8D8;">Coimbra</td>
+            <td>3 pax</td>
+            <td style="background-color: #F5BCA9;" rowspan="2" >50,00€</td>
+        </tr>
+        <tr> <!-- Sexta linha -->
+            <td style="background-color: #D8D8D8;">Faro</td>
+            <td>4 pax</td>            
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Navegação e Dropdowns</title>
+    <script src="https://kit.fontawesome.com/d132031da6.js"
+crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="barradenavegacao.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="#">Logo</a>
+        </div>
+        <ul class="navbar-menu">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <!-- Dropdown em Serviços -->
+            <li class="dropdown">
+                <a href="#services" class="dropdown-toggle">Serviços</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#service1">Master D</a></li>
+                    <li><a href="#service2">W3C</a></li>
+                    <li><a href="https://conhecimentocientifico.r7.com/cosmos-o-que-e/#service3" target="_blank">Universo</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

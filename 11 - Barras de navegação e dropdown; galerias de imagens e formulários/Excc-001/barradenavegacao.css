@@ -1,0 +1,89 @@
+* {
+    border: 0;
+    padding: 0;
+}
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo da barra de navegação */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+/* Logo da barra de navegação */
+.navbar-logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Menu de navegação */
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    position: relative;
+}
+
+/* Links do menu */
+.navbar-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-menu a:hover {
+    color: #00bcd4;
+}
+
+/* Estilo do dropdown */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    list-style: none;
+    position: absolute;
+    top: 100%; /* Alinha o dropdown logo abaixo do link */
+    left: 0;
+    background-color: #444;
+    padding: 0.5rem 0;
+    display: none; /* Esconde por padrão */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+.dropdown-menu li {
+    padding: 0.5rem 1rem;
+}
+
+.dropdown-menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #555;
+}
+
+/* Mostra o menu ao passar o mouse */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:active {
+    color: aqua;
+}

@@ -1,0 +1,160 @@
+@charset "TF-8";
+
+@import url('https://fonts.cdnfonts.com/css/lucida-console');
+
+@font-face {
+    font-family: 'Lucida Console', sans-serif;
+    src: url('Fonte\ -\ Lucida-Console/LUCON.TTF');
+}
+
+
+header {
+    text-align: center;
+    /* centrar texto */
+    background-color: #0D0D0D;
+    /* aplicar cor de fundo */
+}
+
+section {
+    background-color: #110a2c60;
+}
+
+#tit_gosto {
+    color: white;
+    text-transform: uppercase;
+}
+
+#ler {
+    letter-spacing: 5px;
+    padding: 30px;
+    color: #1b771b;
+}
+
+.gostos {
+    background-color: #53515100;
+    font-family: 'Lucida Console', sans-serif;
+    text-align: center;
+
+}
+
+div > ul {
+    color: white;
+}
+
+.viajar {
+    width: 400px;
+    height: auto;
+}
+
+h4 {
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 15px;
+}
+
+h1,
+h2,
+h3 {
+    
+    color: #F2C3A7;
+    /* cor de títulos */
+}
+
+h1 {
+    font-size: 56px;
+    /* tamanho de fonte do h1 */
+}
+
+h3 {
+    font-size: 30px;
+    /* tamanho de fonte do h3 */
+    text-decoration: underline;
+    /* título sublinhado */
+}
+
+p {
+    font-size: 36px;
+    /* tamanho de fonte do parágrafo */
+}
+
+nav,
+aside,
+footer {
+    text-align: center;
+    /* centrar texto */
+    font-size: 30px;
+    /* tamanho de fonte */
+}
+
+nav,
+aside {
+    background-color: #F2A477;
+    /* aplicar cor de fundo */
+}
+
+footer {
+    background-color: #0D0D0D;
+    /* aplicar cor de fundo */
+}
+
+#picJD {
+    width: 400px;
+    /* largura de imagem */
+}
+
+.nomepagina {
+    font-size: 44px;
+    /* tamanho da fonte */
+    text-align: right;
+    /* alinhamento à direita */
+    color: #F2A35E;
+    /* cor da fonte */
+}
+
+.paragrafo2 {
+    background-color: #F2C3A7;
+    /* aplicar cor de fundo ao paragrafo2*/
+}
+
+span#JohnDoe_text {
+    font-weight: bold;
+    /* texto estilizado a negrito*/
+}
+
+
+a:link,
+a:visited,
+a:hover {
+    color: white;
+    /* cor dos links */
+    text-decoration: none;
+    /* links sem sublinhado */
+}
+
+a:hover {
+    /* quando o rato passa sobre o link */
+    font-size: 36px;
+    /* tamanho da fonte */
+    color: #0D0D0D;
+    /* tamanho do link */
+}
+
+a.botao {
+    background-color: #F2C3A7;
+    /* cor de fundo do botão */
+    color: #0D0D0D;
+    /* cor do texto do botão */
+    font-size: 24px;
+    /* tamanho do texto do botão */
+
+}
+
+a:hover {
+    /* quando o rato passa sobre o botão */
+    background-color: white;
+    /* cor de fundo do botão */
+    color: black;
+    /* cor do texto do botão */
+    font-size: 42px;
+    /* tamanho do texto do botão */
+}

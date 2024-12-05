@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folha de Estilo Interna</title>
+    <style>
+       #titulo01 {
+        text-align: center;
+        color: white;
+        background-color: rgb(263, 44, 99);
+       } 
+       #titulo_2 {
+        text-align: right;
+        color: blue;
+       }
+       #paragrafo01 {
+        text-align: left;
+        font-size: 2em;
+        padding: 3px 3px 3px 3px;
+       }
+       #paragrafo02 {
+        text-align: right;
+        font-style: italic;
+        font-size: 4em;
+        padding: 20px;
+       }      
+       #frase_rasurada {
+        text-decoration: line-through;
+       } 
+       #frase_bold {
+        font-weight: bold;       
+       }      
+       a:link {
+        text-decoration: overline target;
+       }
+       h3 > a {
+        text-decoration: overline;
+       }
+       .paragrafo_3 {
+        line-height: 10px;
+       }
+       #linha2 {
+        margin: 0 0 0 50px;
+       }
+      #texto_uppercase {
+       background-color: aqua;
+       text-transform: uppercase; 
+      }
+      #texto_lowercase {
+        text-transform: lowercase;
+        color: #7a39a3;
+      }
+      #texto_capitalize {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        text-transform: capitalize;        
+      }
+
+    </style>
+</head>
+<body>
+    <h1 id="titulo01">Eu sou um titulo centrado de cor branca, com background vermelho</h1>
+
+    <h2 id="titulo_2">Eu sou um título azul, alinhado à direita!</h2>
+
+    <hr width="700px">
+
+    <p id="paragrafo01">Eu sou o paragrafo 1, estou escrito da esquerda para a direita, tenho tamanho de letra de 2 em, e as minhas letras estão espaçadas de 3px.</p>
+
+    <p id="paragrafo02">E eu sou o paragrafo 2, estou escrito da direita para a esquerda, em italico, tenho tamanho de letraem, e as minhas palavras estão espaçadas de 20px</p>
+
+    <hr width="700px" >
+    
+    <h3>O texto abaixo pode ser copiado na página <a href="https://www.lipsum.com/" target="_blank" >Lipsum</a>. Se verem bem, este link não está sublinhado. Tem uma linha por cima.</h3>
+
+    <div class="paragrafo_3">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
+    <p id="linha2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <p id="frase_rasurada">Ut consectetur quibusdam placeat asperiores dolores, illo velit rem hic labore deleniti cum, nulla vero nostrum voluptatem perferendis tempora harum doloribus ipsa?</p>
+
+    <p id="frase_bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quos perspiciatis accusantium quas ullam, ipsa eos, sequi explicabo doloribus velit in? </p>
+
+    <p>Para acabar vamos:</p>
+
+    <p id="texto_uppercase">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum illo unde praesentium eligendi consequatur fugit dolor minus doloribus vitae nobis, deserunt nemo enim quas hic dolorum in neque suscipit. Ullam.</p>
+
+    <p id="texto_lowercase">veniam delectus nemo reiciendis impedit, minus dolore officia.</p>
+
+    <p id="texto_capitalize">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident cumque aperiam recusandae quas inventore enim fugit laborum dicta in laudantium dolore et eveniet expedita, labore nobis harum doloremque itaque ad.</p>
+
+</body>
+</html>

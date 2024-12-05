@@ -1,0 +1,151 @@
+@import url('https://fonts.cdnfonts.com/css/lucida-console');
+
+@font-face {
+    font-family: lucida;
+    src: url(Fonte\ -\ Lucida-Console/LUCON.TTF);
+}
+
+:root {
+    --fonte-padrao: 'lucida console', sans-serif,;
+    --fonte-destaque: "Bebas Neue", sans-serif;
+}
+
+header {
+    text-align: center;
+    /* centrar texto */
+    background-color: #1d070771;
+    /* aplicar cor de fundo */
+}
+
+header {
+    color: #3d1c0680;
+    /* cor de títulos */
+}
+
+#tit_gosto {
+    font-family: var(--fonte-padrao);
+    color: white;
+    text-align: center;
+    background-color: #F2A35E;
+    text-transform: uppercase;
+    
+}
+
+#ler {
+    font-size: 2.5em; 
+    letter-spacing: 15px;
+    padding: 30px;
+    color: rgba(117, 66, 66, 0.596);
+}
+
+h1 {
+    font-size: 56px;
+    /* tamanho de fonte do h1 */
+}
+
+h3 {
+    font-size: 30px;
+    /* tamanho de fonte do h3 */
+    text-decoration: underline;
+    /* título sublinhado */
+}
+
+p {
+    font-size: 36px;
+    /* tamanho de fonte do parágrafo */
+}
+
+nav,
+aside,
+footer {
+    text-align: center;
+    /* centrar texto */
+    font-size: 30px;
+    /* tamanho de fonte */
+}
+
+nav,
+aside {
+    background-color: #F2A477;
+    /* aplicar cor de fundo */
+}
+
+footer {
+    background-color: #0D0D0D;
+    /* aplicar cor de fundo */
+}
+
+#picJD {
+    width: 300px;
+    /* largura de imagem */
+}
+
+#picbook-JD {
+    width: auto;
+}
+
+#picplane-JD {
+    width: 800px;
+}
+
+.nomepagina {
+    font-size: 44px;
+    /* tamanho da fonte */
+    text-align: right;
+    /* alinhamento à direita */
+    color: #F2A35E;
+    /* cor da fonte */
+}
+
+.paragrafo2 {
+    background-color: #F2C3A7;
+    /* aplicar cor de fundo ao paragrafo2*/
+}
+
+span#JohnDoe_text {
+    font-weight: bold;
+    /* texto estilizado a negrito*/
+}
+
+
+a:link,
+a:visited,
+a:hover {
+    color: white;
+    /* cor dos links */
+    text-decoration: none;
+    /* links sem sublinhado */
+}
+
+a:hover {
+    /* quando o rato passa sobre o link */
+    font-size: 36px;
+    /* tamanho da fonte */
+    color: #0D0D0D;
+    /* tamanho do link */
+}
+
+a.botao {
+    background-color: #F2C3A7;
+    /* cor de fundo do botão */
+    color: #0D0D0D;
+    /* cor do texto do botão */
+    font-size: 24px;
+    /* tamanho do texto do botão */
+
+}
+
+a:hover {
+    /* quando o rato passa sobre o botão */
+    background-color: white;
+    /* cor de fundo do botão */
+    color: black;
+    /* cor do texto do botão */
+    font-size: 42px;
+    /* tamanho do texto do botão */
+}
+
+div.gostos {
+    background-color: rgb(14, 180, 180);
+    font-family: var();
+}

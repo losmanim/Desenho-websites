@@ -1,0 +1,18 @@
+body {
+    background-color: gray;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: floralwhite;
+    font-style: italic;
+}
+
+h2 {
+    background-color: slateblue;
+}
+
+ol {
+    background-color: lightsalmon;
+}
