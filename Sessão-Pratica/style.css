@@ -1,34 +1,100 @@
+/* ESTILOS GERAIS */
 * {
     box-sizing: border-box;
-    background-color: antiquewhite;    
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;       
 }
-.cabeca {
-    padding: 0 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgba(85, 85, 172, 0.521);
-    box-shadow: 0 40px;
+.lz-contato button {
+    color: white;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 255, 0.459);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
 }
-h2 {
-    text-align: center;
-    color: rgb(78, 78, 165);
+.lz-contato button:hover {
+    box-shadow: 0px 0px 9px rgb(0, 0, 199);
+    transform: scale(1.07);
 }
-.paraf {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;    
-    float: right;
+img {
+    border-radius: 50px;
 }
-nav {
-    display: inline-block;
-    
-    float: right;
-    
+body {
+    background-color: rgb(127, 120, 226);
+    height: 100vh;
 }
-nav a {
-    text-decoration: none;
-    padding: 30px;
+.menu {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
 }
 
-nav a:hover {
-    background-color: blueviolet;
-    padding: 10px;
+/* ESTILO DO CABEÇALHO */
+header {
+    padding: 40px 4%;
+}
+
+header > .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a {
+    color: rgba(22, 15, 80, 0.904);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    transition: .3s;
+}
+header a:hover {
+    color: white;
+    transform: scale(1.10);
+}
+header nav ul {
+    list-style-type: none;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+/* ESTILO DO TOP */
+section.principal {
+    padding: 40px 4%;
+    margin: 0px 15px;
+}
+section.principal .flex {
+    align-items: center;
+    justify-content: center;
+}
+.principal h1 {
+    color: white;
+    font-size: 45px;
+    justify-content: space-between;
+}
+.principal .texto-principal h1 span {
+    color: blue;
+}
+.principal .texto-principal p {
+    color: white;
+    margin: 40px 0px;
+}
+.principal .img-principal img {
+    position: relative;
+    animation: flutuar 3s ease-in-out alternate;
+}
+@keyframes flutuar {
+    0%{
+        top:0;
+    }
+    100%{
+        top:30px;
+    }
 }
