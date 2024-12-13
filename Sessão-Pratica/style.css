@@ -5,8 +5,7 @@
     margin: 0;
     font-family: "Poppins", sans-serif;       
 }
-.lz-contato button {
-    color: white;
+.lz-contato button {    
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 500;
@@ -24,7 +23,7 @@ h2.titulo {
 h2.titulo span {
     color: blue;
 }
-.lz-contato button:hover {
+button:hover {
     box-shadow: 0px 0px 9px rgb(0, 0, 199);
     transform: scale(1.07);
 }
@@ -36,7 +35,7 @@ body {
     height: 100vh;
 }
 .menu {
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .flex {
@@ -81,6 +80,9 @@ section.principal {
 }
 .logo {
     display: inline-block;
+    border: 1.5px solid;
+    border-radius: 30px;
+    color: blue;    
 }
 section.principal .flex {
     align-items: center;
@@ -100,7 +102,7 @@ section.principal .flex {
 }
 .principal .img-principal img {
     position: relative;
-    animation: flutuar 3s ease-in-out infinite;
+    animation: flutuar 3s ease-in-out infinite alternate;
 }
   
 @keyframes flutuar {
@@ -110,9 +112,6 @@ section.principal .flex {
     100%{
         top:50px;
     }
-}
-@mediav {
-    max-width: 600px;
 }
 
 /* estilo das qualificação */
@@ -141,4 +140,44 @@ section.qualidades .flex {
 .qualidades .especi-box:hover {
     transform: scale(.3s);
     box-shadow: 0 0 17px rgba(255, 255, 255, 0.425);
+}
+
+/* estilo do sobre */
+section.sobre {
+    padding: 80px 4%;
+}
+section.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+.sobre .texto-sobre{
+    color: white;
+
+}
+.sobre .texto-sobre h2 {
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+.sobre .texto-sobre span {
+    color: blue;
+    display: block;
+}
+.sobre .texto-sobre p {
+    display: block;
+    margin: 20px 0;
+    text-align: justify;   
+}
+.lz-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: blue;
+    color: rgb(151, 145, 229);
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: .3s;
+    float: right;
 }
