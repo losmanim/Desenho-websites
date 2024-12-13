@@ -16,6 +16,14 @@
     cursor: pointer;
     transition: .3s;
 }
+h2.titulo {
+    color: white;
+    font-size: 39px;
+    text-align: center;
+}
+h2.titulo span {
+    color: blue;
+}
 .lz-contato button:hover {
     box-shadow: 0px 0px 9px rgb(0, 0, 199);
     transform: scale(1.07);
@@ -69,6 +77,10 @@ header nav ul li {
 section.principal {
     padding: 40px 4%;
     margin: 0px 15px;
+    display: inline-block;
+}
+.logo {
+    display: inline-block;
 }
 section.principal .flex {
     align-items: center;
@@ -88,13 +100,45 @@ section.principal .flex {
 }
 .principal .img-principal img {
     position: relative;
-    animation: flutuar 3s ease-in-out alternate;
+    animation: flutuar 3s ease-in-out infinite;
 }
+  
 @keyframes flutuar {
     0%{
         top:0;
     }
     100%{
-        top:30px;
+        top:50px;
     }
+}
+@mediav {
+    max-width: 600px;
+}
+
+/* estilo das qualificação */
+section.qualidades {
+    padding: 40px 4%;
+} 
+section.qualidades .flex {
+    gap: 59px;
+}
+.qualidades .especi-box {
+    color: white;
+    padding: 40px;    
+    border-radius: 21px;
+    margin-top: 45px;
+    transition: 1.01s;
+
+}
+.qualidades .especi-box i {
+    font-size: 49px;
+    color: blue;
+}
+.qualidades .especi-box h3 {
+    font-size: 29px;
+    margin: 15px 0px;
+}
+.qualidades .especi-box:hover {
+    transform: scale(.3s);
+    box-shadow: 0 0 17px rgba(255, 255, 255, 0.425);
 }
