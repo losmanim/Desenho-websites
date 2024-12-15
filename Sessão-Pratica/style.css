@@ -79,26 +79,30 @@ section.principal {
     display: inline-block;
 }
 .logo {
-    display: inline-block;
-    border: 1.5px solid;
+    display: inline-block;    
     border-radius: 30px;
-    color: blue;    
+    color: blue;
+      
 }
 section.principal .flex {
     align-items: center;
     justify-content: center;
 }
 .principal h1 {
-    color: white;
+    color: rgba(5, 10, 110, 0.628);
     font-size: 45px;
     justify-content: space-between;
 }
 .principal .texto-principal h1 span {
     color: blue;
+    margin: 10px 0;
+    
 }
 .principal .texto-principal p {
     color: white;
     margin: 40px 0px;
+    font-style: bold;
+    font-size: 20px;
 }
 .principal .img-principal img {
     position: relative;
@@ -140,6 +144,8 @@ section.qualidades .flex {
 .qualidades .especi-box:hover {
     transform: scale(.3s);
     box-shadow: 0 0 17px rgba(255, 255, 255, 0.425);
+    cursor: pointer;
+    
 }
 
 /* estilo do sobre */
@@ -180,4 +186,48 @@ section.sobre .flex {
     margin: 0 10px;
     transition: .3s;
     float: right;
+}
+/* estilo do portfólio */
+section.portfolio {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px burlywood;
+}
+section.portfolio .flex {
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.img-port {
+    width: 370px;
+    height: 470px;    
+    background-size: cover;
+    background-position: 100% 100%;
+    transition: 8s;
+    cursor: pointer;
+    border-radius: 30px;
+    position: relative;
+}
+.img-port:hover {
+    background-position: 100% 100%;
+    transition: 8s;
+    transform: scale(.3s);    
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    font-weight: 600;
+    color: rgb(210, 227, 245);
+    opacity: 0;
+    transition: .7s;
+}
+.overlay:hover {
+    opacity: 1;
 }
